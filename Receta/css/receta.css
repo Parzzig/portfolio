@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: titulos;
-    src: url(../font/Cutie\ Biscuit.ttf);
+    src: url(../font/October\ Night.ttf);
 }
 
 @font-face {
     font-family: texto;
-    src: url(../font/Cutie\ Biscuit.ttf);
+    src: url();
 }
 
 * {box-sizing:border-box;} /*el width incluye el padding 
@@ -32,12 +32,13 @@ h1 {border:2px solid rgb(151, 43, 0);
     text-align: center;
     padding:10px;
     border-radius:20px;
+    font-family: titulos;
     /* sombra de caja */
     box-shadow:10px 5px 10px gray;}
 
 blockquote {border-left: 3px solid brown;
             font-style: italic; /*poner en corsiva */
-            background-color: rgb(177, 177, 177);
+            background-color: rgb(255, 138, 84);
             padding:10px;} /* margin y padding pequeños pueden estar en pixeles*/
 
 #foto {width: 80%;/* a todo lo ancho que estas colocada, en este caso del wrapper */
